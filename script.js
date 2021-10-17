@@ -13,7 +13,7 @@ const wrd = {
     "contradictory": "(adj): expressing the opposite; inconsistent",
     "adversary": "(n): an opponent, an enemy",
     "chide": "(v) to scold; to express dissatisfaction",
-    "belligerant": "(adj) hostile; aggressive; quarrelsome",
+    "belligerent": "(adj) hostile; aggressive; quarrelsome",
     "strife": "(n) bitter conflict or struggle",
     "discord": "(n) lack of agreement / harmony",
     "embroil": "(v) to get involved in a conflict, an argument, or confusion",
@@ -49,12 +49,12 @@ const wrd = {
     "pacify": "(v) to calm; to establish peace",
     "haven": "(n) a place of refuge / safety",
     "deliverance": "(n) liberation; rescue from slavery, capture / danger",
-    "expidite": "(v) to speed up or help the progress of; to do quickly",
+    "expdite": "(v) to speed up or help the progress of; to do quickly",
     "articulate": "(adj) skilled in expressing oneself clearly and effectively (v) to express clearly in words",
     "enunciate": "(v) to pronounce, especially in a clear manner",
     "stress": "(n) emphasis in speaking or music (v) to emphasize, (n) tension, strain",
-    "hiearchy": "(n) a group organized according to rank / status",
-    "startify": "(v) to seperate into different layers",
+    "hierarchy": "(n) a group organized according to rank / status",
+    "stratify": "(v) to seperate into different layers",
     "accent": "(n) a style of pronunciation; (v) to focus on",
     "dictation": "(n) clearness in speech / pronunciation",
     "dialect": "(n) an unique form of language spoken by people from a specific group",
@@ -91,7 +91,7 @@ document.getElementById("submit").onclick = () =>
     { 
         if (Object.keys(shuffled)[i].toLowerCase() == document.getElementById(i + "i").value)
         {
-            alert(`${document.getElementById(i + "i").value} is correct for ${Object.keys(shuffled)[i].toLowerCase()}`)
+            alert(`${document.getElementById(i + "i").value} is correct for ${shuffled[Object.keys(shuffled)[i].toLowerCase()]}`)
         } else
         {
             alert(`${Object.keys(shuffled)[i].toLowerCase()} means ${shuffled[Object.keys(shuffled)[i]]}, #${i}, you wrote ${document.getElementById(i+"i").value}`);
