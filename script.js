@@ -56,7 +56,7 @@ const wrd = {
     "hierarchy": "(n) a group organized according to rank / status",
     "stratify": "(v) to seperate into different layers",
     "accent": "(n) a style of pronunciation; (v) to focus on",
-    "dictation": "(n) clearness in speech / pronunciation",
+    "diction": "(n) clearness in speech / pronunciation",
     "dialect": "(n) an unique form of language spoken by people from a specific group",
     "peer": "(n) a person who is equal to another in social standing / age",
     "intelligible": "(adj) to be understood"
